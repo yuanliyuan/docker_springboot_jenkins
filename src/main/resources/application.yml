@@ -1,0 +1,6 @@
+server:
+  port: 8989
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    context-path: /docker_springboot_jenkins
