@@ -51,7 +51,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>1.0.0</version>
                 <configuration>
-                    <imageName>dockerspringboot</imageName><!--[a-z 0-9] 不然docker:build会报错-->
+                    <imageName>yuanli/${project.artifactId}</imageName><!--[a-z 0-9] 不然docker:build会报错-->
                     <dockerDirectory>${project.basedir}/src/main/docker</dockerDirectory>
                     <resources>
                         <resource>
